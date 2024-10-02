@@ -253,7 +253,7 @@ def get_planet(planet_id):
         return jsonify({'error': 'Internal server error', 'message': str(e)}), 500
 
 #-----------------------------VEHICULOS--------------------------
-#Obtiene todos los planetas
+#Obtiene todos los vehiculos
 @app.route('/vehicles', methods=['GET'])
 def get_vehicles():
     try:
